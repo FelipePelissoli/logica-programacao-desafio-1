@@ -1,5 +1,5 @@
 
-let nome = "Felipe O Mago"
+let nome = "Kelazhur"
 let xp = 3500
 let nivel = ""
 
