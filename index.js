@@ -1,26 +1,30 @@
 
 let nome = "Kelazhur"
-let xp = 3500
+let xp = 5735
 let nivel = ""
 
 switch (true) {
     case xp > 1 && xp <= 1000:
-    nivel = "Bronze"
+    nivel = "Ferro"
     break
 
     case xp > 1001 && xp <= 2000:
-    nivel = "Prata"
+    nivel = "Bronze"
     break
 
     case xp > 2001 && xp <= 5000:
-    nivel = "Ouro"
+    nivel = "Prata"
     break
 
     case xp > 5001 && xp <= 7000:
+    nivel = "Ouro"
+    break
+
+    case xp > 7001 && xp <= 8000:
     nivel = "Platina"
     break
 
-    case xp > 7001 && xp <= 9000:
+    case xp > 8001 && xp <= 9000:
     nivel = "Ascendente"
     break
 
