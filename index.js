@@ -1,9 +1,9 @@
 
-let nome = "NomeDoHerói"
-let xp = 500
-let nivel
+let nome = "Felipe O Mago"
+let xp = 3500
+let nivel = ""
 
-switch (xp) {
+switch (true) {
     case xp > 1 && xp <= 1000:
     nivel = "Bronze"
     break
